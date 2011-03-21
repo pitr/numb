@@ -1,0 +1,13 @@
+{
+  "name"          : "numb",
+  "description"   : "The best way to manage your application's dependencies",
+  "version"       : "0.1.0",
+  "keywords"      : ["util", "dependency", "management"],
+  "homepage"      : "https://github.com/pitr/numb",
+  "author"        : "Pitr Vernigorov <pitr.vern@gmail.com> (http://pitr.ca/)",
+  "main"          : "numb",
+  "bin"           : { "numb": "./cli.js" },
+  "repository"    : { "type": "git", "url": "https://github.com/pitr/numb.git" },
+  "engines"       : { "node" : ">=0.2.3" },
+  "directories"   : { "lib" : "./lib" }
+}
