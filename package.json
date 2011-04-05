@@ -1,7 +1,7 @@
 {
   "name"          : "numb",
   "description"   : "The best way to manage your application's dependencies",
-  "version"       : "0.1.0",
+  "version"       : "0.1.1",
   "keywords"      : ["util", "dependency", "management"],
   "homepage"      : "https://github.com/pitr/numb",
   "author"        : "Pitr Vernigorov <pitr.vern@gmail.com> (http://pitr.ca/)",
