@@ -6,9 +6,7 @@ var path  = require('path'),
 
 // check possible spellings of Nodefile
 function nodefileExists(){
-  return  (path.existsSync(process.cwd() + '/Nodefile')) ||
-          (path.existsSync(process.cwd() + '/Nodefile.js')) ||
-          (path.existsSync(process.cwd() + '/Nodefile.coffee'))
+  return path.existsSync(process.cwd() + '/Nodefile')
 }
 
 if (nodefileExists()) {
