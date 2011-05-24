@@ -5,11 +5,7 @@ var path  = require('path'),
     npm   = require("npm")
 
 // check for Numbfile
-function numbfileExists(){
-  return path.existsSync(process.cwd() + '/Numbfile')
-}
-
-if (numbfileExists()) {
+if (path.existsSync(process.cwd() + '/Numbfile')) {
 
   // process and install Numbfile
   var libs = require('./lib/numb').libraries
