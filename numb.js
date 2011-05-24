@@ -1,4 +1,4 @@
-// Require libraries listed in Nodefile and inject into "global" namespace
+// Require libraries listed in Numbfile and inject into "global" namespace
 
 var libs = require('./lib/numb').libraries
 

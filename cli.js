@@ -4,14 +4,14 @@ var path  = require('path'),
     fs    = require('fs'),
     npm   = require("npm")
 
-// check possible spellings of Nodefile
-function nodefileExists(){
-  return path.existsSync(process.cwd() + '/Nodefile')
+// check for Numbfile
+function numbfileExists(){
+  return path.existsSync(process.cwd() + '/Numbfile')
 }
 
-if (nodefileExists()) {
+if (numbfileExists()) {
 
-  // process and install Nodefile
+  // process and install Numbfile
   var libs = require('./lib/numb').libraries
 
   npm.load({}, function(er) {
@@ -43,7 +43,7 @@ if (nodefileExists()) {
 
 } else {
 
-  console.log('Dummy Nodefile created.')
-  fs.writeFileSync(process.cwd() + '/Nodefile', "// define your dependencies\n// example:\n\n// use('underscore', { as : '_', version : '1.1.4' })")
+  console.log('Dummy Numbfile created.')
+  fs.writeFileSync(process.cwd() + '/Numbfile', "// define your dependencies\n// example:\n\n// use('underscore', { as : '_', version : '1.1.4' })")
 
 }
