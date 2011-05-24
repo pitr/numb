@@ -43,3 +43,8 @@ You guessed it,
 
 The usual. Pull requests are welcomed. Bugs go
 to [Issues](https://github.com/pitr/numb/issues).
+
+## Changelog
+
+* 0.1.1 - fix bug with executable (missing hashbang)
+* 0.1.0 - Basic implementation, `numb` either installs everything from Nodefile or creates a dummy one.
